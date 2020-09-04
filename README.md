@@ -12,6 +12,8 @@ An ontology is a knowledge base which can be easily created with the Stanford Pr
 
 The Configuration File format was created by us and it consists of multiple instances, that represent a group of Question-Answer pairs.
 
+For your application of the Question Answering System, you need to create an own Configuration File in the following fashion:
+
 Every instance starts with <INSTANCE>, ends with </INSTANCE>, contains a query,  associated question prototypes
 and variables that allow to generate the same question with different values.
 
